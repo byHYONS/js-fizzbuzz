@@ -8,3 +8,47 @@
 ---------------------- */
 @import url('./utility.css');
 
+/* FINE */
+
+/* -------------------------
+    SECTION FIZZBUZZ
+------------------------- */
+#fizz-buzz {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    background: rgb(24,64,53);
+    background: linear-gradient(204deg, rgba(24,64,53,1) 15%, rgba(77,69,36,1) 56%, rgba(18,59,77,1) 90%);
+}
+
+.container {
+    overflow-y: scroll;
+    margin: auto;
+    width: 80%;
+    height: 95%;
+    background-color: #042c31;
+
+}
+
+h1 {
+    text-align: center;
+    color: #fff;
+    margin-top: 30px;
+
+}
+
+.box {
+    background-color: #348ab3;
+    margin: 0 10px 20px;
+    width: calc(100% / 7);
+    height: 130px;
+    font-size: 22px;
+    text-align: center;
+    line-height: 130px;
+    border-radius: 10px;
+    color: #fff;
+}
+
+.box-yellow {background-color: #fad066; color: #8b670a}
+.box-green {background-color: #60d6a1; color: #065e36;}
+.box-coral {background-color: #ed456f; color: #5b071c;}
