@@ -1,9 +1,12 @@
 // reset
 'use strict'
 
-// Passo successivo sarà quello di eseguire una istruzione condizionale e far in modo che vengano rispettate le condizioni richieste dall'esercizio circa i `multipli di 3, 5, 15`:
-// Per prima cosa eseguo una istruzione di iterazione con il `for loop`:
-// dichiaro var per leggere il div sul quale costuire i box
+// Per prima cosa eseguo una istruzione di iterazione con il for loop;
+// Passo successivo sarà quello di eseguire una istruzione condizionale e far in modo che vengano rispettate le condizioni richieste dall'esercizio circa i multipli di 3, 5, 15;
+// dichiaro var per leggere il div sul quale costuire i box;
+// creo un contenitore dentro al quale riporterò il valore assegnato dalla condizione;
+// aggiungo le classi, stilizzate su css, sul DOM.
+
 const generaBox = document.querySelector('.boxes');
 console.log({generaBox});
 
@@ -37,3 +40,5 @@ for (let i = 1; i<=100; i++){
       generaBox.append(boxNumber);
   }
 }
+
+// FINE

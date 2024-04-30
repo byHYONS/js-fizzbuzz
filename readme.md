@@ -39,13 +39,22 @@ for (let i = 1; i<=100; i++){
 }
 ```
 ##### Bonus 1:
-- 
+- Creo variabile `generaBox` e vado in lettura del contenitore dove andrò ad appendere i box generati tramite:
+```
+const nomeVar = document.queryselector('.class');
+```
 
-
+- Andrò poi a creare un elemento div con `createElement` e appenderò al suo interno il risultato in base alle variabili in cui scriverò la porzione di questo codice:
+```
+    const nomeVar = document.createElement('div');
+    nomeVar.append('Fizz');
+    generaBox.append(nomeVar);
+```
 
 ##### Bonus 2:
-- 
-
-
+- In base alle condizioni andrò ad aggiungere delle classi, già stilizzate nel css, all'elemento div creato con il metodo:
+```
+nomeVar.classList.add('.class')
+```
 
 ###### FINE

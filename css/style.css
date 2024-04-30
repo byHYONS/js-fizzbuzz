@@ -3,9 +3,10 @@
         • STYLE COMMON •
    *****************************
 -------------------------------- */
-/* ---------------------
+
+/* ********************
     IMPORT UTILITIES
----------------------- */
+********************* */
 @import url('./utility.css');
 
 /* FINE */
@@ -49,6 +50,11 @@ h1 {
     color: #fff;
 }
 
+/* colori di background */
 .box-yellow {background-color: #fad066; color: #8b670a}
 .box-green {background-color: #60d6a1; color: #065e36;}
 .box-coral {background-color: #ed456f; color: #5b071c;}
+
+/* ********************
+          FINE
+******************** */
